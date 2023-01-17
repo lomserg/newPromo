@@ -587,9 +587,6 @@ position: relative;
 /* ------------------- */
 
 .hero-txt {
-
-
-
     display: grid;
     grid-template-columns: 5px minmax(350px, auto) 5px;
     grid-template-rows: 2fr auto auto;
@@ -610,6 +607,18 @@ position: relative;
     grid-column: 2;
 }
 
+.hero-img {
+    background-image: url(./img/main_image.png);
+    width: 529px;
+    height: 529px;
+}
+@media (max-width: 700px) {
+    .hero-img {
+        background-image: url(./img/main_image_mobile.png);
+        width: 529px;
+        height: 529px;
+    }
+  }
 /* ------------------- */
 /* tabs         */
 /* ------------------- */
